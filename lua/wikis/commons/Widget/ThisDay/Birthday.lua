@@ -76,7 +76,7 @@ function ThisDayBirthday:_toLine(player)
 	}
 	local line = {
 		OpponentDisplay.InlineOpponent{
-			opponent = {players = {playerData}, type = Opponent.solo}
+			opponent = {players = {playerData}, type = Opponent.solo, extradata = {}}
 		},
 		' - ',
 		playerAge.birthDate.year .. ' (age ' .. playerAge:calculate() .. ')'
