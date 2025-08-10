@@ -69,7 +69,7 @@ function League:createInfobox()
 			size = args.imagesize,
 		},
 		Center{children = {args.caption}},
-		Title{children = 'Leagasdue Information'},
+		Title{children = 'League Information'},
 		Cell{
 			name = 'Series',
 			children = {
